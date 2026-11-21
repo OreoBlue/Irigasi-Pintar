@@ -34,6 +34,13 @@ python -m streamlit run app.py
 - **16 Petak** menampilkan tiga kondisi historis. Pilih satu petak dan muat kondisinya ke Konsol untuk mencoba perubahan.
 - **Evaluasi** menampilkan hasil uji, kurva metrik dan biaya kesalahan pada berbagai ambang. Ambang simulasi hanya memengaruhi perhitungan pada tab ini.
 
+### Perbandingan pada data uji (15–31 Oktober 2025)
+
+| Metode | TP | FP | FN | TN | Precision | Recall | F1 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Baseline (kelembapan tanah <35%) | 42 | 335 | 133 | 5.985 | 11,14% | 24,00% | 0,1522 |
+| GBDT (ambang probabilitas 0,23) | 131 | 7 | 44 | 6.313 | 94,93% | 74,86% | 0,8371 |
+
 ## Model dan data
 
 Dashboard memakai pohon terlatih dari versi Editorial dengan ambang keputusan 0,23. Konsol memperkirakan riwayat kelembapan dari satu masukan, sedangkan pipeline pelatihan menghitung fitur dari urutan observasi historis. Pada periode uji 15–31 Oktober 2025, model mendeteksi 131 dari 175 kebutuhan siram, dengan 7 alarm keliru dan 44 kebutuhan terlewat. Kinerja di lokasi atau musim lain memerlukan pengujian lapangan.
