@@ -26,7 +26,7 @@ python -m streamlit run app.py
 
 ## Link Streamlit Community Cloud
 
-[Judul Link](https://contoh.com)
+[Irigasi Pintar](https://irigasi-pintar.streamlit.app/)
 
 ## Menggunakan dashboard
 
