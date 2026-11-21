@@ -2,6 +2,11 @@
 
 Dashboard Streamlit untuk menilai kebutuhan penyiraman cabai, tomat, dan selada pada 16 petak rumah kaca di Lembang. Python menjalankan inferensi GBDT saat pengguna mengubah masukan. Aplikasi memakai data historis dan masukan manual tanpa layanan API tambahan.
 
+## Dibuat oleh mahasiswa 5A MKB:
+
+- Naail Safwan Saleh
+- Juan Stevan Immanuel
+
 ## Menjalankan aplikasi
 
 Gunakan Python 3.12 dari direktori yang berisi `app.py`.
@@ -17,12 +22,9 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-## Deploy ke Streamlit Community Cloud
+## Link Streamlit Community Cloud
 
-1. Buat repository GitHub bernama `Irigasi-Pintar`. Ekstrak ZIP dan unggah isinya sehingga `app.py` berada di akar repository.
-2. Masuk ke [Streamlit Community Cloud](https://share.streamlit.io/) dengan akun yang memiliki akses ke repository.
-3. Buat aplikasi dari repository tersebut, pilih branch tempat berkas diunggah dan isi main file path dengan `app.py`.
-4. Pilih Python 3.12 di pengaturan deployment dan jalankan deploy. Dependensi dibaca dari `requirements.txt`.
+[Judul Link](https://contoh.com)
 
 ## Menggunakan dashboard
 
@@ -44,6 +46,3 @@ Dashboard memakai pohon terlatih dari versi Editorial dengan ambang keputusan 0,
 
 Untuk mengulang eksperimen, jalankan `python pipeline.py`. Skrip menampilkan hasil evaluasi di terminal. Aplikasi memuat model tersimpan dari `model.json` secara terpisah.
 
-## Tim
-
-Juan Stevan Immanuel dan Naail Safwan Saleh.
