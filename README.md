@@ -2,7 +2,7 @@
 
 Dashboard Streamlit untuk menilai kebutuhan penyiraman cabai, tomat, dan selada pada 16 petak rumah kaca di Lembang. Python menjalankan inferensi GBDT saat pengguna mengubah masukan. Aplikasi memakai data historis dan masukan manual tanpa layanan API tambahan.
 
-## Dibuat oleh mahasiswa 5A MKB:
+## Tim
 
 - Naail Safwan Saleh
 - Juan Stevan Immanuel
